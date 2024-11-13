@@ -1,8 +1,24 @@
-# React + Vite
+# My React Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A blog platform built with React and Vite.
 
-Currently, two official plugins are available:
+## Setup Instructions
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open http://localhost:5173 in your browser
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
+**App.jsx**: The primary application component that displays the `Header` component along with the main blog content.
+**Header.jsx**: Includes the header component, which features a dark mode toggle and navigation menu.
+**index.css**: Provides global styling for both light and dark modes, along with responsive design and hover effects.
+
+## Screenshot
+![image](https://github.com/user-attachments/assets/9e5a0876-9879-4c1c-ae78-1805cf349cc0)
+
+
+## What I Learned
+- Learned to initiate a React project with Vite, streamlining setup and speeding up development.
+- Implemented a dark mode toggle using React's `useState`, applying conditional classes to the body and components.
+- Gained familiarity with core npm commands, like `npm install` for adding dependencies and `npm run dev` for launching the development server.
+- Built and styled a reusable Header component, enhancing my skills in creating modular React components.

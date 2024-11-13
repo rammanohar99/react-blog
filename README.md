@@ -16,7 +16,12 @@ A blog platform built with React and Vite.
 ## Screenshot
 ![image](https://github.com/user-attachments/assets/9e5a0876-9879-4c1c-ae78-1805cf349cc0)
 
-![image](https://github.com/user-attachments/assets/c2861e10-2424-4609-935f-956b87932684)
+Desktop View
+![image](https://github.com/user-attachments/assets/52942ea4-89c9-44ab-8bcf-81e071765a7d)
+
+Mobile View
+![image](https://github.com/user-attachments/assets/e4e39e3b-d936-49ab-8b99-2d556b8e9fed)
+
 
 
 

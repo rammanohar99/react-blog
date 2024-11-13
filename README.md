@@ -16,6 +16,9 @@ A blog platform built with React and Vite.
 ## Screenshot
 ![image](https://github.com/user-attachments/assets/9e5a0876-9879-4c1c-ae78-1805cf349cc0)
 
+![image](https://github.com/user-attachments/assets/c2861e10-2424-4609-935f-956b87932684)
+
+
 
 ## What I Learned
 - Learned to initiate a React project with Vite, streamlining setup and speeding up development.

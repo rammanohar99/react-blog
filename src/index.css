@@ -1,12 +1,33 @@
-.blog-header {
+.blog-header.light {
   padding: 1rem;
   background-color: #f8f9fa;
   border-bottom: 1px solid #e9ecef;
+  color: #333;
 }
 
-.blog-header h1 {
+.blog-header.light h1 {
   margin: 0;
   color: #333;
+}
+
+.blog-header.light nav a {
+  color: #666;
+}
+
+.blog-header.dark {
+  padding: 1rem;
+  background-color: #333;
+  border-bottom: 1px solid #444;
+  color: #ffffff;
+}
+
+.blog-header.dark h1 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.blog-header.dark nav a {
+  color: #dddddd;
 }
 
 .blog-header nav ul {
@@ -18,5 +39,8 @@
 
 .blog-header nav a {
   text-decoration: none;
-  color: #666;
+}
+
+.blog-header nav a:hover {
+  text-decoration: underline;
 }

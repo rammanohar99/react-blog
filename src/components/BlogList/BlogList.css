@@ -1,0 +1,33 @@
+/* BlogList.css */
+
+/* Overall Blog List container */
+.blog-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+
+  .blog-list > * {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* Hover effect for BlogPost items */
+  .blog-list > *:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Responsive layout for smaller screens */
+  @media (max-width: 1024px) {
+    .blog-list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .blog-list {
+      grid-template-columns: 1fr;
+    }
+  }
